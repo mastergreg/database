@@ -1,0 +1,73 @@
+\documentclass[a4paper,10pt]{article} 
+\usepackage{anysize}
+\marginsize{2cm}{2cm}{1cm}{1cm}
+%\textwidth 6.0in \textheight = 664pt
+\usepackage{xltxtra}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{color}
+\usepackage{xgreek}
+\usepackage{framed}
+\usepackage{float}
+\usepackage{tkz-graph}
+\setmainfont[Mapping=TeX-text]{CMU Serif}
+
+%\setmainfont{Arial}
+%\setsansfont{FreeSans}
+%\setmonofont{FreeMono}
+\begin{document}
+\def\thesection {Άσκηση \arabic{section}}
+\def\thesubsection {\alph{subsection}}
+%\renewcommand{\labelenumi}{\roman{enumi})}
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\renewcommand{\labelenumii}{(\arabic{enumii})}
+
+
+\include{title/title}
+\section{}
+\noindent Αρχικό B+ δέντρο.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{files/init_tree.png}
+\end{figure}
+
+\subsection{}
+		\begin{enumerate}
+			\item
+				Some text
+
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.7\textwidth]{files/tree1a.png}
+				\end{figure}
+			\item
+				Some more text
+
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.7\textwidth]{files/tree1b.png}
+				\end{figure}
+			\item
+				Some text again
+
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.7\textwidth]{files/tree1c.png}
+				\end{figure}
+		\end{enumerate}
+\subsection{}
+		\begin{enumerate}
+			\item
+			\item
+			\item
+		\end{enumerate}
+\subsection{}
+		\begin{enumerate}
+			\item
+			\item
+			\item
+		\end{enumerate}
+\section{}
+\section{}
+\section{}
+\end{document}
